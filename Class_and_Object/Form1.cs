@@ -32,6 +32,9 @@ namespace Class_and_Object
 			arb.durum = 's';
 			arb.YIL = -2016;
 			arb.MARKASI = "Golf";
+			arb.muayene = 2017;
+			arb.plaka = "34 Aİ 1881";
+			arb.sahip = "Zübeyde Çelik";
 
 
 			label1.Text = arb.renk;
@@ -41,6 +44,9 @@ namespace Class_and_Object
 			label5.Text = arb.durum.ToString();
 			label6.Text = arb.YIL.ToString();
 			label7.Text = arb.MARKASI;
+			label8.Text = arb.muayene.ToString();
+			label9.Text = arb.plaka;
+			label10.Text = arb.sahip;
 			pictureBox1.BackColor = Color.CadetBlue;
 
 		}

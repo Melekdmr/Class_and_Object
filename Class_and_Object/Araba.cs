@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace Class_and_Object
 {
-	internal class Araba
+	internal class Araba :ArabaDetay
 	{
 		public string renk;
 		public int hiz;
