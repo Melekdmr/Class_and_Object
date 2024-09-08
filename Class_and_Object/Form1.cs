@@ -30,6 +30,8 @@ namespace Class_and_Object
 			arb.motor = 1245.56;
 			arb.fiyat = 50000;
 			arb.durum = 's';
+			arb.YIL = -2016;
+			arb.MARKASI = "Golf";
 
 
 			label1.Text = arb.renk;
@@ -37,7 +39,8 @@ namespace Class_and_Object
 			label3.Text = arb.motor.ToString();
 			label4.Text = arb.fiyat.ToString();
 			label5.Text = arb.durum.ToString();
-
+			label6.Text = arb.YIL.ToString();
+			label7.Text = arb.MARKASI;
 			pictureBox1.BackColor = Color.CadetBlue;
 
 		}
