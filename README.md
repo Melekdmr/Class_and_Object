@@ -4,4 +4,4 @@ Features
 Define a Car class with attributes: Brand, Model, State, and Year.
 Users can input car details via the form.
 Display car information based on user input.
-Implements encapsulation principles to manage the car attribut
+Implements encapsulation principles to manage the car attribut.
